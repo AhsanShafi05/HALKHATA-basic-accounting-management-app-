@@ -14,13 +14,13 @@ Future<void> main() async {
     publishableKey: SupabaseConfig.publishableKey,
   );
 
-  runApp(const BizLedgerApp());
+  runApp(const HalkhataApp());
 }
 
 final supabase = Supabase.instance.client;
 
-class BizLedgerApp extends StatelessWidget {
-  const BizLedgerApp({super.key});
+class HalkhataApp extends StatelessWidget {
+  const HalkhataApp({super.key});
 
   @override
   Widget build(BuildContext context) {
